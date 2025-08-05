@@ -1,0 +1,25 @@
+[
+  {
+    "question": "Pour quelle équipe roule actuellement Lewis Hamilton ?",
+    "answers": ["Ferrari", "Mercedes", "Red Bull"],
+    "correct": "Ferrari"
+  },
+  {
+    "question": "Quelle est la capital de la Philippines ?",
+    "answers": ["Hanoï", "Manila", "Phnom Penh"],
+    "correct": "Manila"
+  },
+  {
+    "question": "Quelle est la console la plus vendues de tous les temps ?",
+    "answers": ["Nitendo Switch", "PS5", "PS2","Xbox 360","PS3"],
+    "correct": "PS2"
+  },
+  {
+    "question": "Quel est le premier homme à avoir été dans l'espace ?",
+    "answers": ["Neil Armstrong", "Youri Gagarine", "Alan Shepard"
+    ],
+    "correct": "Youri Gagarine"
+  }
+
+
+]
