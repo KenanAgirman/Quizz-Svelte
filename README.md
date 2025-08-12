@@ -1,9 +1,20 @@
-Création a l'aide du framework Sveltes( v5) en utilisantr les runes la création d'un quizz
-décompostion en en composant 
+# Quiz interactif avec Svelte v5 + Runes
 
-1 er composa,t la bare du score en suite le quizz utilsiaton de fetch pour récuperé le fichier .JSON qui se trouved ans le dossier public
+Ce projet propose un petit quiz développé avec **Svelte v5**, en tirant parti des **runes** pour une gestion d’état réactive et simplifiée.
 
+## ⚙️ Composition du projet
 
+Le quiz est décomposé en plusieurs composants :
 
-<img width="1073" height="482" alt="Capture d'écran 2025-08-12 194746" src="https://github.com/user-attachments/assets/40cecaec-1af0-4d2e-adb2-96b51f6d44b9" />
-<img width="716" height="551" alt="image" src="https://github.com/user-attachments/assets/3d73cd19-7d3d-418b-8265-0f8d14220d2d" />
+1. **ProgressBar** — affiche visuellement le score et la progression.
+2. **CardQuiz** — affiche les questions, gère les réponses et le comptage des points.
+
+#La logique du quiz (affichage et réponses) se trouve dans les fichiers .svelte.js du dossier runes.
+
+## 📦 Sources des données
+
+Les questions sont chargées dynamiquement via `fetch()` depuis un fichier `.JSON` situé dans le dossier **public**.
+<img width="873" height="282" alt="Capture d'écran 2025-08-12 194746" src="https://github.com/user-attachments/assets/ddc4891b-4bd9-4b88-b0a8-92f6b54affb5" />
+
+<img width="716" height="551" alt="Capture d'écran 2025-08-12 194801" src="https://github.com/user-attachments/assets/4e8efbea-8c9d-47ce-b76b-d5a05433ccd5" />
+
